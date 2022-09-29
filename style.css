@@ -17,13 +17,21 @@ FONT SIZE SYSTEM (px)
   box-sizing: border-box;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+}
 
+/* GRID */
+
+.container {
+  display: flex;
+}
 
 /* NAV-BAR-SIDE */
 .nav-aside {
   background-color: black;
   height: 100vh;
-  width: 6vw;
+  width: 8vw;
   color: #def0ff;
 }
 
@@ -32,7 +40,7 @@ FONT SIZE SYSTEM (px)
 .nav-foot > a {
   color: #def0ff;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 24px;
   display: inline-block;
   width: 100%;
 }
@@ -56,14 +64,15 @@ FONT SIZE SYSTEM (px)
 }
 
 .main-icon {
-  font-size: 44px;
+  font-size: 52px;
 }
 
 .nav-item-option {
   padding: 16px 0 16px 0;
 }
 
-.nav-item-option:hover {
+.nav-item-option:hover,
+.nav-item-arrow:hover {
   border-left: 3px solid #def0ff;
 }
 
@@ -74,5 +83,48 @@ FONT SIZE SYSTEM (px)
 .nav-item-arrow {
   margin-top: auto;
   margin-bottom: 48px;
+}
+
+.nav-item-arrow > a {
+  font-size: 30px;
+}
+
+/* LAYOUT */
+.main-content {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-section {
+  height: 15%;
+  padding: 33px;
+  display: flex;
+}
+
+.second-section {
+  height: 85%;
+}
+
+.left-part {
+  margin-right: auto;
+}
+
+.right-part {
+  display: flex;
+}
+
+input {
+  height: 20px;
+}
+
+
+
+
+div h1 {
+  /* font-weight: bold; */
+  /* letter-spacing: 0.8px; */
+
 }
 
