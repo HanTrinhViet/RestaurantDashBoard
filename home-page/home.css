@@ -223,6 +223,7 @@ body {
 .mail-box:hover {
   width: 50vh;
   height: 5vh;
+  border: 1px solid #fff;
 }
 
 .btn-subcribe {
