@@ -1,17 +1,19 @@
-function newsletter() {
-  const email = document.getElementById("mail").value;
+"use strict";
 
-  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+const btnSubscribe = document.querySelector(".btn-subcribe");
+const email = document.querySelector(".mail-box");
+
+btnSubscribe.addEventListener("click", function () {
+  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value)) { // biểu thức chính quy regex expression 
     alert("Subscribed Successfully!");
   } else {
     alert("You have entered an invalid email address!");
-    return false;
   }
-}
+});
 
-function phonum() {
-  var phone = document.getElementById("number");
-  if (phone.value.length !== 11) {
-    alert("Phone number is not valid");
-  }
-}
+// function phonum() {
+//   var phone = document.getElementById("number");
+//   if (phone.value.length !== 11) {
+//     alert("Phone number is not valid");
+//   }
+// }
