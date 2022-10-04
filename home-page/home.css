@@ -8,6 +8,7 @@ body {
   font-family: "Inter", sans-serif;
   color: #212529;
   height: 100vh;
+  line-height: 1.7;
 }
 
 /* navbar */
@@ -140,6 +141,7 @@ body {
   font-size: 20px;
   font-weight: 40;
   margin-right: 15px;
+  text-align: justify;
 }
 
 .btn-menu {
@@ -289,7 +291,7 @@ body {
 }
 
 .footer-last-st {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .footer-last-nd {
