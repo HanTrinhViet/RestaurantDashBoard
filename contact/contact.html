@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta required -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="icon" href="../home-page/imgs/favicon.ico" />
+
+    <!-- Css file -->
+    <link rel="stylesheet" href="./contact.css" />
+
+    <!--FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/69fecb4176.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Contact</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <!-- nav items -->
+      <ul class="nav-list">
+        <li class="nav-item nav-brand">
+          <!-- brand -->
+          <a
+            class="nav-link nav-link-brand"
+            href="../home-page/home.html"
+            id="First"
+            >FOODIES</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-home" href="../home-page/home.html"
+            >HOME</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-about" href="../about-us/about.html"
+            >ABOUT US</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">MENU</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-contact" href="../contact/contact.html"
+            >CONTACT</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">ORDER ONLINE</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- contact -->
+    <section class="contact-container">
+      <h1 class="contact-title">CONTACT US</h1>
+    </section>
+
+    <h1 class="contact-detail">Contact Details</h1>
+
+    <!-- contact-form -->
+    <div class="contact-form-container">
+      <div class="contact-box">
+        <div class="contact-content">
+          <h1 class="contact-header">Our Address:</h1>
+          <p class="contact-text">54A, Hoang Dao Thanh , Kim Giang, Ha Noi</p>
+          <h1 class="contact-header">Our Email:</h1>
+          <p class="contact-text">foodies@gmail.com</p>
+          <h1 class="contact-header">Our Phone Number:</h1>
+          <p class="contact-text">0768701056</p>
+        </div>
+      </div>
+
+      <section class="contact-form-box">
+        <form>
+          <div class="contact-form-content">
+            NAME:
+            <input
+              type="text"
+              class="contact-input"
+              id="name"
+              name="name"
+              placeholder="John Smith"
+            />
+            <br /><br />
+            EMAIL:
+            <input
+              type="email"
+              class="contact-input"
+              id="mail"
+              name="email"
+              placeholder="johnsmith@mail.com"
+            />
+            <br /><br />
+            MOBILE NO.:
+            <input
+              type="tel"
+              class="contact-input"
+              id="number"
+              name="mobile"
+              placeholder="03001234567"
+            />
+            <br /><br />
+            MESSAGE:
+            <br /><br />
+            <textarea
+              id="text"
+              cols="60"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <br /><br />
+            <button class="btn-message" onclick="send()">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer-container">
+      <div class="footer-content">
+        <div class="footer-items item-first">
+          <h1 class="footer-title">About us</h1>
+          <p>
+            Established in August 2010, Foodies believes in facilitating it’s
+            guests with an experience of fine dining at reasonable prices and
+            extra ordinary services. We will be the leader in Vietnamese
+            restaurant franchising with excellent flavour, organic food
+            offerings, and a consistent experience that revolves around fresh
+            food, family, Karachi nostalgia, and a sense of social
+            consciousness.
+            <a class="footer-link" href="">Learn More</a>
+          </p>
+        </div>
+
+        <div class="footer-items item-center">
+          <h2 class="footer-title">Quick Links</h2>
+          <p><a class="footer-link" href="#First">Home</a></p>
+          <p>
+            <a class="footer-link" href="../about-us/about.html">About us</a>
+          </p>
+          <p><a class="footer-link" href="">Menu</a></p>
+          <p><a class="footer-link" href="">Deals</a></p>
+          <p>
+            <a class="footer-link" href="../contact/contact.html">Contact</a>
+          </p>
+          <p>
+            <a class="footer-link" href="">Privacy Policy</a>
+          </p>
+        </div>
+
+        <div class="footer-items item-last">
+          <h3 class="footer-title">Contact us</h3>
+          <p>
+            If you have any questions, comments, or would like to reserve a
+            table, please feel free to reach out to us directly, or fill out the
+            form on our
+            <a class="footer-link" href="">contact page</a>.
+          </p>
+          <p><i class="fas fa-phone-alt"></i> 0768701056</p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 54A, Hoang Dao Thanh , Kim
+            Giang, Ha Noi
+          </p>
+        </div>
+      </div>
+
+      <p class="footer-last-st footer-last">
+        <i class="fab fa-facebook-square" id="icon0"></i>
+        <i class="fab fa-facebook-messenger" id="icon1"></i>
+        <i class="fab fa-instagram" id="icon2"></i>
+        <i class="fab fa-twitter" id="icon3"></i>
+      </p>
+
+      <p class="footer-last-nd footer-last">
+        © 2022 Foodies, Han Trinh All rights reserved.
+      </p>
+    </footer>
+    <script src="./contact.js"></script>
+  </body>
+</html>
