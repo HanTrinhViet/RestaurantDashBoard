@@ -49,26 +49,25 @@ body {
   text-decoration: none;
 }
 
-/* contact-header */
+/* contact */
 .contact-container {
-  background: linear-gradient(
+  background-image: linear-gradient(
       to right bottom,
       rgba(240, 140, 0, 0.4),
       rgba(245, 159, 0, 0.4)
     ),
     url("3.jpg");
   background-position: center;
-  position: relative;
-  display: flex;
   background-size: cover;
-  width: 100%;
-  height: 490px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 490px;
 }
 
 .contact-title {
-  margin-top: -20px;
+  margin-top: 20px;
   text-align: center;
   color: #ffff;
   font-size: 4em;
@@ -88,19 +87,17 @@ body {
   display: flex;
   justify-content: center;
   gap: 150px;
-  border: 2px solid #e67700;
-  border-radius: 50px;
   width: 90%;
   margin: 0 auto;
   margin-bottom: 100px;
   padding: 50px 0;
-  /* background-color: #f59f00; */
+  border: 2px solid #e67700;
+  border-radius: 50px;
 }
 
 .contact-header {
   margin-top: 35px;
   padding-bottom: 8px;
-  /* padding-left: 28px; */
   font-weight: 700;
   font-size: 36px;
 }
@@ -110,7 +107,6 @@ body {
   font-weight: 40;
   font-family: "Sofia", cursive;
   padding-bottom: 5px;
-  /* padding-left: 28px; */
   letter-spacing: 1.5px;
 }
 
@@ -140,15 +136,12 @@ input[type] {
 }
 
 textarea {
-  width: 100%;
   height: 100px;
   padding: 8px 10px;
-  box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: rgb(250, 250, 250);
   font-size: 16px;
-  resize: vertical;
   font-family: "Inter", sans-serif;
 }
 
@@ -158,7 +151,6 @@ textarea {
   padding: 10px;
   width: 100%;
   border-radius: 10px;
-  /* box-shadow: 3px 4px lightgray; */
   font-size: 16px;
   color: whitesmoke;
   font-weight: 600;
@@ -168,7 +160,6 @@ textarea {
 
 .btn-message:hover {
   background-color: #099268;
-  /* letter-spacing: 2px; */
   font-size: larger;
 }
 

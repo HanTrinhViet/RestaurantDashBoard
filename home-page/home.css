@@ -63,7 +63,6 @@ body {
     ),
     url(./imgs/restauBackground.jpg);
   background-size: cover;
-  background-position: top;
 }
 
 .content-container .content {
@@ -87,10 +86,8 @@ body {
   font-weight: 600;
   color: #fff;
   background-color: #e67700;
-  display: inline-block;
   padding: 20px 30px;
   margin-top: 50px;
-  text-decoration: none;
   letter-spacing: 2px;
   transition: 0.5s;
   border: none;
@@ -118,10 +115,12 @@ body {
   line-height: 1.7;
   display: flex;
   justify-content: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .introduce-img-section {
-  margin: 0 300px 0 40px;
+  margin-right: 200px;
 }
 
 .introduce-img {
@@ -139,14 +138,14 @@ body {
 
 .introduce-sub-content {
   font-size: 20px;
-  font-weight: 40;
+  font-weight: 400;
   margin-right: 15px;
   text-align: justify;
 }
 
 .btn-menu {
   margin-top: 27px;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 30px;
   color: #fff;
   background-color: #099268;
   border: none;
@@ -164,18 +163,14 @@ body {
 }
 
 /* gallery */
-.gallery-title {
-  margin-top: 120px;
-  margin-bottom: 40px;
-  font-size: 42px;
-  font-weight: 700;
+.gallery-picture {
   text-align: center;
 }
 
-.gallery-picture {
-  text-align: center;
-  align-items: center;
-  margin-right: 7.5px;
+.gallery-title {
+  margin-bottom: 40px;
+  font-size: 42px;
+  font-weight: 700;
 }
 
 .images {
@@ -196,7 +191,6 @@ body {
   justify-content: center;
   gap: 30px;
   background-color: #087f5b;
-  padding: 15px;
   height: 400px;
 }
 
@@ -212,8 +206,8 @@ body {
 }
 
 .mail-box {
-  padding: 5px;
-  font-size: 19px;
+  padding: 10px;
+  font-size: 20px;
   width: 40vh;
   display: block;
   border-radius: 100px;
@@ -225,7 +219,7 @@ body {
 .mail-box:hover {
   width: 50vh;
   height: 5vh;
-  border: 1px solid #fff;
+  border: 3px solid #fff;
 }
 
 .btn-subcribe {
@@ -233,7 +227,7 @@ body {
   background-color: #e67700;
   color: #fff;
   font-size: 20px;
-  padding: 15px 40px 15px 40px;
+  padding: 15px 40px;
   border-radius: 100px;
   border: none;
   cursor: pointer;
@@ -275,6 +269,7 @@ body {
   color: #fff;
 }
 
+
 .footer-link {
   text-decoration: none;
   color: #12b886;
@@ -290,11 +285,7 @@ body {
   color: white;
 }
 
-.footer-last-st {
-  margin-top: 20px;
-}
-
-.footer-last-nd {
+.footer-last-st, .footer-last-nd {
   margin-top: 20px;
 }
 
@@ -303,6 +294,3 @@ body {
 #icon3 {
   padding-left: 20px;
 }
-
-
-
